@@ -11,7 +11,7 @@ const CONFIG = {
 	// └─┘┴ ┴└─┘┴└─┘└─┘
 
 	// General
-	name: 'John',
+	name: 'Kushagra',
 	imageBackground: false,
 	openInNewTab: true,
 	twelveHourFormat: false,
@@ -23,17 +23,17 @@ const CONFIG = {
 	greetingNight: 'Go to Sleep!',
 
 	// Layout
-	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
+	bentoLayout: 'buttons', // 'bento', 'lists', 'buttons'
 
 	// Weather
-	weatherKey: 'InsertYourAPIKeyHere123456', // Write here your API Key
+	weatherKey: '90bcf4bd4f39528c07f84ebcd20e1997', // Write here your API Key
 	weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
 	weatherUnit: 'C', // 'F', 'C'
 	language: 'en', // More languages in https://openweathermap.org/current#multi
 
-	trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
-	defaultLatitude: '37.775',
-	defaultLongitude: '-122.419',
+	trackLocation: false, // If false or an error occurs, the app will use the lat/lon below
+	defaultLatitude: '23.259',
+	defaultLongitude: '77.412',
 
 	// Autochange
 	autoChangeTheme: true,
@@ -53,78 +53,78 @@ const CONFIG = {
 	firstButtonsContainer: [
 		{
 			id: '1',
-			name: 'Github',
-			icon: 'github',
-			link: 'https://github.com/',
+			name: 'Bitbucket',
+			icon: 'git-pull-request',
+			link: 'https://bitbucket.org/dashboard/overview',
 		},
 		{
 			id: '2',
-			name: 'Mail',
-			icon: 'mail',
-			link: 'https://mail.protonmail.com/',
+			name: 'Dashboard',
+			icon: 'layout-dashboard',
+			link: 'https://workspace.google.com/dashboard?pli=1',
 		},
 		{
 			id: '3',
-			name: 'Todoist',
-			icon: 'trello',
-			link: 'https://todoist.com',
+			name: 'Figma',
+			icon: 'figma',
+			link: 'https://www.figma.com/file/VMpSnRYUwwqTrkvrhVV16k/Yellow-version-of-ajjas-dealer-connect',
 		},
 		{
 			id: '4',
-			name: 'Calendar',
-			icon: 'calendar',
-			link: 'https://calendar.google.com/calendar/r',
+			name: 'Meet',
+			icon: 'video',
+			link: 'https://meet.google.com/?authuser=0',
 		},
 		{
 			id: '5',
-			name: 'Reddit',
-			icon: 'glasses',
-			link: 'https://reddit.com',
+			name: 'Mail',
+			icon: 'mail',
+			link: 'https://mail.google.com/mail/u/0/#inbox',
 		},
 		{
 			id: '6',
-			name: 'Odysee',
-			icon: 'youtube',
-			link: 'https://odysee.com/',
+			name: 'Chat',
+			icon: 'message-square',
+			link: 'https://mail.google.com/chat/u/0/#chat/welcome',
 		},
 	],
 
 	secondButtonsContainer: [
 		{
 			id: '1',
-			name: 'Music',
-			icon: 'headphones',
-			link: 'https://open.spotify.com',
+			name: 'Asana',
+			icon: 'clipboard-list',
+			link: 'https://app.asana.com/0/home/1201961287404868',
 		},
 		{
 			id: '2',
-			name: 'twitter',
-			icon: 'twitter',
-			link: 'https://twitter.com/',
+			name: 'Sheets',
+			icon: 'sheet',
+			link: 'https://docs.google.com/spreadsheets/d/1nKSnd_NyvbN0J5LjGn9uDZxAM0bRkicE7y_hjwNETYo/edit#gid=0',
 		},
 		{
 			id: '3',
-			name: 'bot',
-			icon: 'bot',
-			link: 'https://discord.com/app',
+			name: 'localhost',
+			icon: 'layout-grid',
+			link: 'http://localhost:3000',
 		},
 		{
 			id: '4',
-			name: 'Amazon',
-			icon: 'shopping-bag',
-			link: 'https://amazon.com/',
+			name: 'Stack Overflow',
+			icon: 'code',
+			link: 'https://stackoverflow.com/',
 		},
 		{
 			id: '5',
-			name: 'Hashnode',
-			icon: 'pen-tool',
-			link: 'https://hashnode.com/',
+			name: 'MDN Web Docs',
+			icon: 'book',
+			link: 'https://developer.mozilla.org/en-US/',
 		},
 		{
 			id: '6',
-			name: 'Figma',
-			icon: 'figma',
-			link: 'https://figma.com/',
+			name: 'Spotify',
+			icon: 'headphones',
+			link: 'https://open.spotify.com/',
 		},
 	],
 
